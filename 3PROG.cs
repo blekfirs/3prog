@@ -33,6 +33,7 @@ while (true)
                 }
             }
             break;
+            
         case 2:
             var table = new int[10, 10];
             for (int i = 0; i < 10; ++i)
@@ -51,6 +52,7 @@ while (true)
                 Console.WriteLine();
             }
             break;
+            
         case 3:
             Console.Write("Введите число: ");
             int num = int.Parse(Console.ReadLine());
@@ -58,6 +60,7 @@ while (true)
                 if (num % i == 0)
                     Console.WriteLine("{0}/{1}", num, i);
             break;
+            
         case 4:
             Environment.Exit(0);
             break;
